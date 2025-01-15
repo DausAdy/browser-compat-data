@@ -6,8 +6,7 @@
           "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/grid-template-rows",
           "spec_url": [
             "https://drafts.csswg.org/css-grid/#track-sizing",
-            "https://drafts.csswg.org/css-grid/#subgrids",
-            "https://drafts.csswg.org/css-grid-3/#masonry-layout"
+            "https://drafts.csswg.org/css-grid/#subgrids"
           ],
           "tags": [
             "web-features:grid"
@@ -45,7 +44,8 @@
             "samsunginternet_android": {
               "version_added": "6.0"
             },
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -80,7 +80,8 @@
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
-              "webview_android": "mirror"
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -91,6 +92,10 @@
         },
         "auto": {
           "__compat": {
+            "spec_url": "https://drafts.csswg.org/css-grid-2/#valdef-grid-template-columns-auto",
+            "tags": [
+              "web-features:grid"
+            ],
             "support": {
               "chrome": {
                 "version_added": "57"
@@ -112,7 +117,8 @@
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
-              "webview_android": "mirror"
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -123,9 +129,9 @@
         },
         "fit-content": {
           "__compat": {
-            "description": "<code>fit-content()</code>",
+            "description": "`fit-content()`",
             "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/fit-content",
-            "spec_url": "https://drafts.csswg.org/css-sizing-4/#sizing-values",
+            "spec_url": "https://drafts.csswg.org/css-grid/#funcdef-grid-template-columns-fit-content",
             "tags": [
               "web-features:grid"
             ],
@@ -154,7 +160,8 @@
               "samsunginternet_android": {
                 "version_added": "6.0"
               },
-              "webview_android": "mirror"
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -165,15 +172,15 @@
         },
         "masonry": {
           "__compat": {
-            "description": "<code>masonry</code>",
-            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/CSS_Grid_Layout/Masonry_Layout",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/CSS_grid_layout/Masonry_layout",
             "spec_url": "https://drafts.csswg.org/css-grid-3/#masonry-layout",
             "tags": [
               "web-features:masonry"
             ],
             "support": {
               "chrome": {
-                "version_added": false
+                "version_added": false,
+                "impl_url": "https://crbug.com/40128480"
               },
               "chrome_android": "mirror",
               "edge": "mirror",
@@ -185,7 +192,8 @@
                     "name": "layout.css.grid-template-masonry-value.enabled",
                     "value_to_set": "true"
                   }
-                ]
+                ],
+                "impl_url": "https://bugzil.la/1757446"
               },
               "firefox_android": "mirror",
               "ie": {
@@ -195,11 +203,13 @@
               "opera": "mirror",
               "opera_android": "mirror",
               "safari": {
-                "version_added": "preview"
+                "version_added": "preview",
+                "impl_url": "https://webkit.org/b/248287"
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
-              "webview_android": "mirror"
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": true,
@@ -210,6 +220,10 @@
         },
         "max-content": {
           "__compat": {
+            "spec_url": "https://drafts.csswg.org/css-grid-2/#valdef-grid-template-columns-max-content",
+            "tags": [
+              "web-features:grid"
+            ],
             "support": {
               "chrome": {
                 "version_added": "57"
@@ -231,7 +245,8 @@
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
-              "webview_android": "mirror"
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -242,6 +257,10 @@
         },
         "min-content": {
           "__compat": {
+            "spec_url": "https://drafts.csswg.org/css-grid-2/#valdef-grid-template-columns-min-content",
+            "tags": [
+              "web-features:grid"
+            ],
             "support": {
               "chrome": {
                 "version_added": "57"
@@ -263,7 +282,8 @@
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
-              "webview_android": "mirror"
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -274,9 +294,9 @@
         },
         "minmax": {
           "__compat": {
-            "description": "<code>minmax()</code>",
-            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/minmax()",
-            "spec_url": "https://drafts.csswg.org/css-grid/#valdef-grid-template-columns-minmax",
+            "description": "`minmax()`",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/minmax",
+            "spec_url": "https://drafts.csswg.org/css-grid/#funcdef-grid-template-columns-minmax",
             "tags": [
               "web-features:grid"
             ],
@@ -305,7 +325,8 @@
               "samsunginternet_android": {
                 "version_added": "6.0"
               },
-              "webview_android": "mirror"
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -316,6 +337,10 @@
         },
         "none": {
           "__compat": {
+            "spec_url": "https://drafts.csswg.org/css-grid/#valdef-grid-template-rows-none",
+            "tags": [
+              "web-features:grid"
+            ],
             "support": {
               "chrome": {
                 "version_added": "57"
@@ -337,7 +362,8 @@
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
-              "webview_android": "mirror"
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -348,8 +374,8 @@
         },
         "repeat": {
           "__compat": {
-            "description": "<code>repeat()</code>",
-            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/repeat()",
+            "description": "`repeat()`",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/repeat",
             "spec_url": "https://drafts.csswg.org/css-grid/#repeat-notation",
             "tags": [
               "web-features:grid"
@@ -370,13 +396,13 @@
                   "version_added": "57",
                   "version_removed": "76",
                   "partial_implementation": true,
-                  "notes": "<code>repeat(auto-fill, ...)</code> and <code>repeat(auto-fit, ...)</code> only support one repeated column (see <a href='https://bugzil.la/1341507'>bug 1341507</a>)."
+                  "notes": "`repeat(auto-fill, ...)` and `repeat(auto-fit, ...)` only support one repeated column (see [bug 1341507](https://bugzil.la/1341507))."
                 },
                 {
                   "version_added": "52",
                   "version_removed": "57",
                   "partial_implementation": true,
-                  "notes": "<a href='https://developer.mozilla.org/docs/Web/CSS/calc'><code>calc()</code></a> doesn't work in <code>repeat()</code> (see <a href='https://bugzil.la/1350069'>bug 1350069</a>)."
+                  "notes": "[`calc()`](https://developer.mozilla.org/docs/Web/CSS/calc) doesn't work in `repeat()` (see [bug 1350069](https://bugzil.la/1350069))."
                 }
               ],
               "firefox_android": "mirror",
@@ -393,7 +419,8 @@
               "samsunginternet_android": {
                 "version_added": "6.0"
               },
-              "webview_android": "mirror"
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -404,8 +431,7 @@
         },
         "subgrid": {
           "__compat": {
-            "description": "<code>subgrid</code>",
-            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/CSS_Grid_Layout/Subgrid",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/CSS_grid_layout/Subgrid",
             "spec_url": "https://drafts.csswg.org/css-grid/#subgrids",
             "tags": [
               "web-features:subgrid"
@@ -431,7 +457,8 @@
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
-              "webview_android": "mirror"
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,

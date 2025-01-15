@@ -4,6 +4,9 @@
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS",
         "spec_url": "https://drafts.csswg.org/cssom/#namespacedef-css",
+        "tags": [
+          "web-features:css-object-model"
+        ],
         "support": {
           "chrome": {
             "version_added": "28"
@@ -27,7 +30,8 @@
           },
           "safari_ios": "mirror",
           "samsunginternet_android": "mirror",
-          "webview_android": "mirror"
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": false,
@@ -37,9 +41,12 @@
       },
       "Hz_static": {
         "__compat": {
-          "description": "<code>Hz()</code> static method",
+          "description": "`Hz()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-hz",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "66"
@@ -47,7 +54,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -61,7 +69,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -72,9 +81,12 @@
       },
       "Q_static": {
         "__compat": {
-          "description": "<code>Q()</code> static method",
+          "description": "`Q()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-q",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "66"
@@ -82,7 +94,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -96,7 +109,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -107,8 +121,11 @@
       },
       "cap_static": {
         "__compat": {
-          "description": "<code>cap()</code> static method",
+          "description": "`cap()` static method",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-cap",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "118"
@@ -116,7 +133,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -130,7 +148,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -141,9 +160,12 @@
       },
       "ch_static": {
         "__compat": {
-          "description": "<code>ch()</code> static method",
+          "description": "`ch()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-ch",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "66"
@@ -151,7 +173,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -165,7 +188,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -176,9 +200,12 @@
       },
       "cm_static": {
         "__compat": {
-          "description": "<code>cm()</code> static method",
+          "description": "`cm()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-cm",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "66"
@@ -186,7 +213,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -200,7 +228,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -211,9 +240,12 @@
       },
       "cqb_static": {
         "__compat": {
-          "description": "<code>cbq()</code> static method",
+          "description": "`cbq()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-cqb",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "105"
@@ -221,7 +253,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -235,7 +268,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -246,9 +280,12 @@
       },
       "cqh_static": {
         "__compat": {
-          "description": "<code>cqh()</code> static method",
+          "description": "`cqh()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-cqh",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "105"
@@ -256,7 +293,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -270,7 +308,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -281,9 +320,12 @@
       },
       "cqi_static": {
         "__compat": {
-          "description": "<code>cqi()</code> static method",
+          "description": "`cqi()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-cqi",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "105"
@@ -291,7 +333,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -305,7 +348,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -316,9 +360,12 @@
       },
       "cqmax_static": {
         "__compat": {
-          "description": "<code>cqmax()</code> static method",
+          "description": "`cqmax()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-cqmax",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "105"
@@ -326,7 +373,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -340,7 +388,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -351,9 +400,12 @@
       },
       "cqmin_static": {
         "__compat": {
-          "description": "<code>cqmin()</code> static method",
+          "description": "`cqmin()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-cqmin",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "105"
@@ -361,7 +413,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -375,7 +428,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -386,9 +440,12 @@
       },
       "cqw_static": {
         "__compat": {
-          "description": "<code>cqw()</code> static method",
+          "description": "`cqw()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-cqw",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "105"
@@ -396,7 +453,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -410,7 +468,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -421,9 +480,12 @@
       },
       "deg_static": {
         "__compat": {
-          "description": "<code>deg()</code> static method",
+          "description": "`deg()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-deg",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "66"
@@ -431,7 +493,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -445,7 +508,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -456,9 +520,12 @@
       },
       "dpcm_static": {
         "__compat": {
-          "description": "<code>dpqm()</code> static method",
+          "description": "`dpqm()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-dpcm",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "66"
@@ -466,7 +533,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -480,7 +548,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -491,9 +560,12 @@
       },
       "dpi_static": {
         "__compat": {
-          "description": "<code>dpi()</code> static method",
+          "description": "`dpi()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-dpi",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "66"
@@ -501,7 +573,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -515,7 +588,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -526,9 +600,12 @@
       },
       "dppx_static": {
         "__compat": {
-          "description": "<code>dppx()</code> static method",
+          "description": "`dppx()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-dppx",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "66"
@@ -536,7 +613,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -550,7 +628,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -561,9 +640,12 @@
       },
       "dvb_static": {
         "__compat": {
-          "description": "<code>dvb()</code> static method",
+          "description": "`dvb()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-dvb",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "108"
@@ -571,7 +653,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -585,7 +668,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -596,9 +680,12 @@
       },
       "dvh_static": {
         "__compat": {
-          "description": "<code>dvh()</code> static method",
+          "description": "`dvh()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-dvh",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "108"
@@ -606,7 +693,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -620,7 +708,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -631,9 +720,12 @@
       },
       "dvi_static": {
         "__compat": {
-          "description": "<code>dvi()</code> static method",
+          "description": "`dvi()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-dvi",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "108"
@@ -641,7 +733,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -655,7 +748,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -666,9 +760,12 @@
       },
       "dvmax_static": {
         "__compat": {
-          "description": "<code>dvmax()</code> static method",
+          "description": "`dvmax()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-dvmax",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "108"
@@ -676,7 +773,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -690,7 +788,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -701,9 +800,12 @@
       },
       "dvmin_static": {
         "__compat": {
-          "description": "<code>dvmin()</code> static method",
+          "description": "`dvmin()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-dvmin",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "108"
@@ -711,7 +813,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -725,7 +828,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -736,9 +840,12 @@
       },
       "dvw_static": {
         "__compat": {
-          "description": "<code>dvw()</code> static method",
+          "description": "`dvw()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-dvw",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "108"
@@ -746,7 +853,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -760,7 +868,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -771,9 +880,12 @@
       },
       "em_static": {
         "__compat": {
-          "description": "<code>em()</code> static method",
+          "description": "`em()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-em",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "66"
@@ -781,7 +893,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -795,7 +908,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -806,9 +920,12 @@
       },
       "escape_static": {
         "__compat": {
-          "description": "<code>escape()</code> static method",
+          "description": "`escape()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/escape_static",
           "spec_url": "https://drafts.csswg.org/cssom/#the-css.escape()-method",
+          "tags": [
+            "web-features:css-escape"
+          ],
           "support": {
             "chrome": {
               "version_added": "46"
@@ -830,7 +947,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -841,9 +959,12 @@
       },
       "ex_static": {
         "__compat": {
-          "description": "<code>ex()</code> static method",
+          "description": "`ex()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-ex",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "66"
@@ -851,7 +972,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -865,7 +987,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -876,9 +999,12 @@
       },
       "fr_static": {
         "__compat": {
-          "description": "<code>fr()</code> static method",
+          "description": "`fr()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-fr",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "66"
@@ -886,7 +1012,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -900,7 +1027,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -911,9 +1039,12 @@
       },
       "grad_static": {
         "__compat": {
-          "description": "<code>grad()</code> static method",
+          "description": "`grad()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-grad",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "66"
@@ -921,7 +1052,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -935,7 +1067,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -946,9 +1079,12 @@
       },
       "highlights_static": {
         "__compat": {
-          "description": "<code>highlights</code> static property",
+          "description": "`highlights` static property",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/highlights_static",
           "spec_url": "https://drafts.csswg.org/css-highlight-api/#dom-css-highlights",
+          "tags": [
+            "web-features:highlight"
+          ],
           "support": {
             "chrome": {
               "version_added": "105"
@@ -956,7 +1092,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": "preview"
+              "version_added": "preview",
+              "impl_url": "https://bugzil.la/1703961"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -970,7 +1107,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -981,8 +1119,11 @@
       },
       "ic_static": {
         "__compat": {
-          "description": "<code>ic()</code> static method",
+          "description": "`ic()` static method",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-ic",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "118"
@@ -990,7 +1131,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1004,7 +1146,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1015,9 +1158,12 @@
       },
       "in_static": {
         "__compat": {
-          "description": "<code>in()</code> static method",
+          "description": "`in()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-in",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "66"
@@ -1025,7 +1171,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1039,7 +1186,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1050,9 +1198,12 @@
       },
       "kHz_static": {
         "__compat": {
-          "description": "<code>kHz()</code> static method",
+          "description": "`kHz()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-khz",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "66"
@@ -1060,7 +1211,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1074,7 +1226,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1085,8 +1238,11 @@
       },
       "lh_static": {
         "__compat": {
-          "description": "<code>lh()</code> static method",
+          "description": "`lh()` static method",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-lh",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "118"
@@ -1094,7 +1250,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1108,7 +1265,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1119,9 +1277,12 @@
       },
       "lvb_static": {
         "__compat": {
-          "description": "<code>lvb()</code> static method",
+          "description": "`lvb()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-lvb",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "108"
@@ -1129,7 +1290,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1143,7 +1305,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1154,9 +1317,12 @@
       },
       "lvh_static": {
         "__compat": {
-          "description": "<code>lvh()</code> static method",
+          "description": "`lvh()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-lvh",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "108"
@@ -1164,7 +1330,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1178,7 +1345,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1189,9 +1357,12 @@
       },
       "lvi_static": {
         "__compat": {
-          "description": "<code>lvi()</code> static method",
+          "description": "`lvi()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-lvi",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "108"
@@ -1199,7 +1370,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1213,7 +1385,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1224,9 +1397,12 @@
       },
       "lvmax_static": {
         "__compat": {
-          "description": "<code>lvmax()</code> static method",
+          "description": "`lvmax()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-lvmax",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "108"
@@ -1234,7 +1410,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1248,7 +1425,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1259,9 +1437,12 @@
       },
       "lvmin_static": {
         "__compat": {
-          "description": "<code>lvmin()</code> static method",
+          "description": "`lvmin()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-lvmin",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "108"
@@ -1269,7 +1450,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1283,7 +1465,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1294,9 +1477,12 @@
       },
       "lvw_static": {
         "__compat": {
-          "description": "<code>lvw()</code> static method",
+          "description": "`lvw()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-lvw",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "108"
@@ -1304,7 +1490,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1318,7 +1505,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1329,9 +1517,12 @@
       },
       "mm_static": {
         "__compat": {
-          "description": "<code>mm()</code> static method",
+          "description": "`mm()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-mm",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "66"
@@ -1339,7 +1530,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1353,7 +1545,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1364,9 +1557,12 @@
       },
       "ms_static": {
         "__compat": {
-          "description": "<code>ms()</code> static method",
+          "description": "`ms()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-ms",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "66"
@@ -1374,7 +1570,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1388,7 +1585,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1399,9 +1597,12 @@
       },
       "number_static": {
         "__compat": {
-          "description": "<code>number()</code> static method",
+          "description": "`number()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-number",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "66"
@@ -1409,7 +1610,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1423,7 +1625,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1434,9 +1637,12 @@
       },
       "paintWorklet_static": {
         "__compat": {
-          "description": "<code>paintWorklet</code> static property",
+          "description": "`paintWorklet` static property",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/paintWorklet_static",
           "spec_url": "https://drafts.css-houdini.org/css-paint-api/#ref-for-dom-css-paintworklet",
+          "tags": [
+            "web-features:paint"
+          ],
           "support": {
             "chrome": {
               "version_added": "65"
@@ -1444,7 +1650,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1302328"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1454,11 +1661,13 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://webkit.org/b/190217"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
@@ -1469,9 +1678,12 @@
       },
       "pc_static": {
         "__compat": {
-          "description": "<code>pc()</code> static method",
+          "description": "`pc()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-pc",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "66"
@@ -1479,7 +1691,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1493,7 +1706,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1504,9 +1718,12 @@
       },
       "percent_static": {
         "__compat": {
-          "description": "<code>percent()</code> static method",
+          "description": "`percent()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-percent",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "66"
@@ -1514,7 +1731,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1528,7 +1746,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1539,9 +1758,12 @@
       },
       "pt_static": {
         "__compat": {
-          "description": "<code>pt()</code> static method",
+          "description": "`pt()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-pt",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "66"
@@ -1549,7 +1771,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1563,7 +1786,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1574,9 +1798,12 @@
       },
       "px_static": {
         "__compat": {
-          "description": "<code>px()</code> static method",
+          "description": "`px()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-px",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "66"
@@ -1584,7 +1811,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1598,7 +1826,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1609,9 +1838,12 @@
       },
       "rad_static": {
         "__compat": {
-          "description": "<code>rad()</code> static method",
+          "description": "`rad()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-rad",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "66"
@@ -1619,7 +1851,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1633,7 +1866,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1644,8 +1878,11 @@
       },
       "rcap_static": {
         "__compat": {
-          "description": "<code>rcap()</code> static method",
+          "description": "`rcap()` static method",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-rcap",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "118"
@@ -1653,7 +1890,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1667,7 +1905,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1678,8 +1917,11 @@
       },
       "rch_static": {
         "__compat": {
-          "description": "<code>rch()</code> static method",
+          "description": "`rch()` static method",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-rch",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "118"
@@ -1687,7 +1929,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1701,7 +1944,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1712,7 +1956,7 @@
       },
       "registerProperty_static": {
         "__compat": {
-          "description": "<code>registerProperty()</code> static method",
+          "description": "`registerProperty()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/registerProperty_static",
           "spec_url": "https://drafts.css-houdini.org/css-properties-values-api/#the-registerproperty-function",
           "tags": [
@@ -1725,8 +1969,7 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": "preview",
-              "notes": "Does not yet support interpolation of registered custom properties. See <a href='https://bugzil.la/1846516'>bug 1846516</a>."
+              "version_added": "128"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1740,7 +1983,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1751,9 +1995,12 @@
       },
       "rem_static": {
         "__compat": {
-          "description": "<code>rem()</code> static method",
+          "description": "`rem()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-rem",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "66"
@@ -1761,7 +2008,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1775,7 +2023,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1786,8 +2035,11 @@
       },
       "rex_static": {
         "__compat": {
-          "description": "<code>rex()</code> static method",
+          "description": "`rex()` static method",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-rex",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "118"
@@ -1795,7 +2047,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1809,7 +2062,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1820,8 +2074,11 @@
       },
       "ric_static": {
         "__compat": {
-          "description": "<code>ric()</code> static method",
+          "description": "`ric()` static method",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-ric",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "118"
@@ -1829,7 +2086,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1843,7 +2101,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1854,8 +2113,11 @@
       },
       "rlh_static": {
         "__compat": {
-          "description": "<code>rlh()</code> static method",
+          "description": "`rlh()` static method",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-rlh",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "118"
@@ -1863,7 +2125,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1877,7 +2140,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1888,9 +2152,12 @@
       },
       "s_static": {
         "__compat": {
-          "description": "<code>s()</code> static method",
+          "description": "`s()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-s",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "66"
@@ -1898,7 +2165,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1912,7 +2180,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1923,44 +2192,23 @@
       },
       "supports_static": {
         "__compat": {
-          "description": "<code>supports()</code> static method",
+          "description": "`supports()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/supports_static",
           "spec_url": "https://drafts.csswg.org/css-conditional-3/#ref-for-dom-css-supports",
+          "tags": [
+            "web-features:css-supports"
+          ],
           "support": {
-            "chrome": [
-              {
-                "version_added": "61"
-              },
-              {
-                "version_added": "28",
-                "version_removed": "61",
-                "partial_implementation": true,
-                "notes": "The parentheses-less one-argument version is not supported."
-              }
-            ],
+            "chrome": {
+              "version_added": "28"
+            },
             "chrome_android": "mirror",
-            "edge": [
-              {
-                "version_added": "79"
-              },
-              {
-                "version_added": "12",
-                "version_removed": "79",
-                "partial_implementation": true,
-                "notes": "The parentheses-less one-argument version is not supported."
-              }
-            ],
-            "firefox": [
-              {
-                "version_added": "55"
-              },
-              {
-                "version_added": "22",
-                "version_removed": "55",
-                "partial_implementation": true,
-                "notes": "The parentheses-less one-argument version is not supported."
-              }
-            ],
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "22"
+            },
             "firefox_android": "mirror",
             "ie": {
               "version_added": false
@@ -1968,33 +2216,63 @@
             "oculus": "mirror",
             "opera": "mirror",
             "opera_android": "mirror",
-            "safari": [
-              {
-                "version_added": "11"
-              },
-              {
-                "version_added": "9",
-                "version_removed": "11",
-                "partial_implementation": true,
-                "notes": "The parentheses-less one-argument version is not supported."
-              }
-            ],
+            "safari": {
+              "version_added": "9"
+            },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
+        },
+        "optional_parens": {
+          "__compat": {
+            "description": "Parentheses for single-argument version are optional.",
+            "support": {
+              "chrome": {
+                "version_added": "61"
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "55"
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": false
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "11"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
         }
       },
       "svb_static": {
         "__compat": {
-          "description": "<code>svb()</code> static method",
+          "description": "`svb()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-svb",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "108"
@@ -2002,7 +2280,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -2016,7 +2295,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -2027,9 +2307,12 @@
       },
       "svh_static": {
         "__compat": {
-          "description": "<code>svh()</code> static method",
+          "description": "`svh()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-svh",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "108"
@@ -2037,7 +2320,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -2051,7 +2335,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -2062,9 +2347,12 @@
       },
       "svi_static": {
         "__compat": {
-          "description": "<code>svi()</code> static method",
+          "description": "`svi()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-svi",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "108"
@@ -2072,7 +2360,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -2086,7 +2375,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -2097,9 +2387,12 @@
       },
       "svmax_static": {
         "__compat": {
-          "description": "<code>svmax()</code> static method",
+          "description": "`svmax()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-svmax",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "108"
@@ -2107,7 +2400,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -2121,7 +2415,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -2132,9 +2427,12 @@
       },
       "svmin_static": {
         "__compat": {
-          "description": "<code>svmin()</code> static method",
+          "description": "`svmin()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-svmin",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "108"
@@ -2142,7 +2440,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -2156,7 +2455,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -2167,9 +2467,12 @@
       },
       "svw_static": {
         "__compat": {
-          "description": "<code>svw()</code> static method",
+          "description": "`svw()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-svw",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "108"
@@ -2177,7 +2480,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -2191,7 +2495,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -2202,9 +2507,12 @@
       },
       "turn_static": {
         "__compat": {
-          "description": "<code>turn()</code> static method",
+          "description": "`turn()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-turn",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "66"
@@ -2212,7 +2520,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -2226,7 +2535,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -2237,9 +2547,12 @@
       },
       "vb_static": {
         "__compat": {
-          "description": "<code>vb()</code> static method",
+          "description": "`vb()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-vb",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "108"
@@ -2248,7 +2561,7 @@
             "edge": "mirror",
             "firefox": {
               "version_added": false,
-              "impl_url": "https://bugzil.la/1287034"
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -2263,7 +2576,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -2274,9 +2588,12 @@
       },
       "vh_static": {
         "__compat": {
-          "description": "<code>vh()</code> static method",
+          "description": "`vh()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-vh",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "66"
@@ -2284,7 +2601,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -2298,7 +2616,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -2309,9 +2628,12 @@
       },
       "vi_static": {
         "__compat": {
-          "description": "<code>vi()</code> static method",
+          "description": "`vi()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-vi",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "108"
@@ -2320,7 +2642,7 @@
             "edge": "mirror",
             "firefox": {
               "version_added": false,
-              "impl_url": "https://bugzil.la/1287034"
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -2335,7 +2657,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -2346,9 +2669,12 @@
       },
       "vmax_static": {
         "__compat": {
-          "description": "<code>vmax()</code> static method",
+          "description": "`vmax()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-vmax",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "66"
@@ -2356,7 +2682,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -2370,7 +2697,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -2381,9 +2709,12 @@
       },
       "vmin_static": {
         "__compat": {
-          "description": "<code>vmin()</code> static method",
+          "description": "`vmin()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-vmin",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "66"
@@ -2391,7 +2722,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -2405,7 +2737,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -2416,9 +2749,12 @@
       },
       "vw_static": {
         "__compat": {
-          "description": "<code>vw()</code> static method",
+          "description": "`vw()` static method",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/CSS/factory_functions_static",
           "spec_url": "https://drafts.css-houdini.org/css-typed-om/#dom-css-vw",
+          "tags": [
+            "web-features:numeric-factory-functions"
+          ],
           "support": {
             "chrome": {
               "version_added": "66"
@@ -2426,7 +2762,8 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://bugzil.la/1278697"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -2440,7 +2777,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,

@@ -3,10 +3,18 @@
     "selectors": {
       "open": {
         "__compat": {
-          "spec_url": "https://drafts.csswg.org/selectors-4/#open-state",
+          "description": "`:open`",
+          "spec_url": [
+            "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-open",
+            "https://drafts.csswg.org/selectors/#selectordef-open"
+          ],
+          "tags": [
+            "web-features:open-closed"
+          ],
           "support": {
             "chrome": {
               "version_added": "114",
+              "version_removed": "122",
               "partial_implementation": true,
               "notes": "The selector is recognized, but has no effect."
             },
@@ -27,7 +35,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,

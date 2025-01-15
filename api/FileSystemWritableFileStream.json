@@ -4,12 +4,15 @@
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/FileSystemWritableFileStream",
         "spec_url": "https://fs.spec.whatwg.org/#api-filesystemwritablefilestream",
+        "tags": [
+          "web-features:file-system-access"
+        ],
         "support": {
           "chrome": {
             "version_added": "86"
           },
           "chrome_android": {
-            "version_added": false
+            "version_added": "109"
           },
           "edge": "mirror",
           "firefox": {
@@ -23,11 +26,13 @@
           "opera": "mirror",
           "opera_android": "mirror",
           "safari": {
-            "version_added": false
+            "version_added": false,
+            "impl_url": "https://webkit.org/b/231706"
           },
           "safari_ios": "mirror",
           "samsunginternet_android": "mirror",
-          "webview_android": "mirror"
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": false,
@@ -39,12 +44,15 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/FileSystemWritableFileStream/seek",
           "spec_url": "https://fs.spec.whatwg.org/#api-filesystemwritablefilestream-seek",
+          "tags": [
+            "web-features:file-system-access"
+          ],
           "support": {
             "chrome": {
               "version_added": "86"
             },
             "chrome_android": {
-              "version_added": false
+              "version_added": "109"
             },
             "edge": "mirror",
             "firefox": {
@@ -58,11 +66,13 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://webkit.org/b/231706"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -75,12 +85,15 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/FileSystemWritableFileStream/truncate",
           "spec_url": "https://fs.spec.whatwg.org/#api-filesystemwritablefilestream-truncate",
+          "tags": [
+            "web-features:file-system-access"
+          ],
           "support": {
             "chrome": {
               "version_added": "86"
             },
             "chrome_android": {
-              "version_added": false
+              "version_added": "109"
             },
             "edge": "mirror",
             "firefox": {
@@ -94,11 +107,13 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": false,
+              "impl_url": "https://webkit.org/b/231706"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -111,12 +126,15 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/FileSystemWritableFileStream/write",
           "spec_url": "https://fs.spec.whatwg.org/#api-filesystemwritablefilestream-write",
+          "tags": [
+            "web-features:file-system-access"
+          ],
           "support": {
             "chrome": {
               "version_added": "86"
             },
             "chrome_android": {
-              "version_added": false
+              "version_added": "109"
             },
             "edge": "mirror",
             "firefox": {
@@ -134,7 +152,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
