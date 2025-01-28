@@ -4,12 +4,15 @@
       "Temporal": {
         "ZonedDateTime": {
           "__compat": {
-            "description": "Temporal.ZonedDateTime interface",
             "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime",
             "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal-zoneddatetime-objects",
+            "tags": [
+              "web-features:temporal"
+            ],
             "support": {
               "chrome": {
-                "version_added": false
+                "version_added": false,
+                "impl_url": "https://crbug.com/42201538"
               },
               "chrome_android": "mirror",
               "deno": {
@@ -23,7 +26,8 @@
               },
               "edge": "mirror",
               "firefox": {
-                "version_added": false
+                "version_added": false,
+                "impl_url": "https://bugzil.la/1519167"
               },
               "firefox_android": "mirror",
               "ie": {
@@ -36,11 +40,13 @@
               "opera": "mirror",
               "opera_android": "mirror",
               "safari": {
-                "version_added": false
+                "version_added": false,
+                "impl_url": "https://webkit.org/b/223166"
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
-              "webview_android": "mirror"
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": true,
@@ -50,12 +56,16 @@
           },
           "ZonedDateTime": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime constructor",
+              "description": "`ZonedDateTime()` constructor",
               "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/ZonedDateTime",
-              "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal-zoneddatetime-objects",
+              "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal-zoneddatetime-constructor",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -69,7 +79,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -82,11 +93,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -97,12 +110,15 @@
           },
           "add": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.add()",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/add",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/add",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.zoneddatetime.prototype.add",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -116,7 +132,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -129,11 +146,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -142,14 +161,17 @@
               }
             }
           },
-          "calendar": {
+          "calendarId": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.calendar",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/calendar",
-              "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.zoneddatetime.prototype.calendar",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/calendarId",
+              "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.zoneddatetime.prototype.calendarid",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -163,7 +185,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -176,11 +199,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -191,12 +216,15 @@
           },
           "compare": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.compare()",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/compare",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/compare",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.zoneddatetime.compare",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -210,7 +238,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -223,11 +252,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -238,12 +269,15 @@
           },
           "day": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.day",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/day",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/day",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.zoneddatetime.prototype.day",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -257,7 +291,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -270,11 +305,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -285,12 +322,15 @@
           },
           "dayOfWeek": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.dayOfWeek",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/dayofweek",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/dayOfWeek",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.zoneddatetime.prototype.dayofweek",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -304,7 +344,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -317,11 +358,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -332,12 +375,15 @@
           },
           "dayOfYear": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.dayOfYear",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/dayofyear",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/dayOfYear",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.zoneddatetime.prototype.dayofyear",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -351,7 +397,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -364,11 +411,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -379,12 +428,15 @@
           },
           "daysInMonth": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.daysInMonth",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/daysinmonth",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/daysInMonth",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.zoneddatetime.prototype.daysinmonth",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -398,7 +450,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -411,11 +464,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -426,12 +481,15 @@
           },
           "daysInWeek": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.daysInWeek",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/daysinweek",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/daysInWeek",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.zoneddatetime.prototype.daysinweek",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -445,7 +503,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -458,11 +517,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -473,12 +534,15 @@
           },
           "daysInYear": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.daysInYear",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/daysinyear",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/daysInYear",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.zoneddatetime.prototype.daysinyear",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -492,7 +556,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -505,58 +570,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
-              },
-              "status": {
-                "experimental": true,
-                "standard_track": true,
-                "deprecated": false
-              }
-            }
-          },
-          "epochMicroseconds": {
-            "__compat": {
-              "description": "Temporal.ZonedDateTime.epochMicroseconds",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/epochmicroseconds",
-              "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.zoneddatetime.prototype.epochmicroseconds",
-              "support": {
-                "chrome": {
-                  "version_added": false
-                },
-                "chrome_android": "mirror",
-                "deno": {
-                  "version_added": "1.40",
-                  "flags": [
-                    {
-                      "type": "runtime_flag",
-                      "name": "--unstable-temporal"
-                    }
-                  ]
-                },
-                "edge": "mirror",
-                "firefox": {
-                  "version_added": false
-                },
-                "firefox_android": "mirror",
-                "ie": {
-                  "version_added": false
-                },
-                "nodejs": {
-                  "version_added": false
-                },
-                "oculus": "mirror",
-                "opera": "mirror",
-                "opera_android": "mirror",
-                "safari": {
-                  "version_added": false
-                },
-                "safari_ios": "mirror",
-                "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -567,12 +587,15 @@
           },
           "epochMilliseconds": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.epochMilliseconds",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/epochmilliseconds",
-              "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.zoneddatetime.prototype.epochseconds",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/epochMilliseconds",
+              "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.zoneddatetime.prototype.epochmilliseconds",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -586,7 +609,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -599,11 +623,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -614,12 +640,15 @@
           },
           "epochNanoseconds": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.epochNanoseconds",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/epochnanoseconds",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/epochNanoseconds",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.zoneddatetime.prototype.epochnanoseconds",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -633,7 +662,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -646,58 +676,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
-              },
-              "status": {
-                "experimental": true,
-                "standard_track": true,
-                "deprecated": false
-              }
-            }
-          },
-          "epochSeconds": {
-            "__compat": {
-              "description": "Temporal.ZonedDateTime.epochSeconds",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/epochseconds",
-              "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.zoneddatetime.prototype.epochseconds",
-              "support": {
-                "chrome": {
-                  "version_added": false
-                },
-                "chrome_android": "mirror",
-                "deno": {
-                  "version_added": "1.40",
-                  "flags": [
-                    {
-                      "type": "runtime_flag",
-                      "name": "--unstable-temporal"
-                    }
-                  ]
-                },
-                "edge": "mirror",
-                "firefox": {
-                  "version_added": false
-                },
-                "firefox_android": "mirror",
-                "ie": {
-                  "version_added": false
-                },
-                "nodejs": {
-                  "version_added": false
-                },
-                "oculus": "mirror",
-                "opera": "mirror",
-                "opera_android": "mirror",
-                "safari": {
-                  "version_added": false
-                },
-                "safari_ios": "mirror",
-                "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -708,12 +693,15 @@
           },
           "equals": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.equals()",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/equals",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/equals",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.zoneddatetime.prototype.equals",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -727,7 +715,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -740,11 +729,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -755,11 +746,15 @@
           },
           "era": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.era",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/era",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/era",
+              "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.zoneddatetime.prototype.era",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -773,7 +768,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -786,11 +782,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -801,11 +799,15 @@
           },
           "eraYear": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.eraYear",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/erayear",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/eraYear",
+              "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.zoneddatetime.prototype.erayear",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -819,7 +821,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -832,11 +835,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -847,12 +852,15 @@
           },
           "from": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.from()",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/from",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/from",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.zoneddatetime.from",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -866,7 +874,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -879,11 +888,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -892,14 +903,17 @@
               }
             }
           },
-          "getISOFields": {
+          "getTimeZoneTransition": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.getISOFields()",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/getisofields",
-              "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.zoneddatetime.prototype.getisofields",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/getTimeZoneTransition",
+              "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.zoneddatetime.prototype.gettimezonetransition",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -913,7 +927,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -926,11 +941,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -941,12 +958,15 @@
           },
           "hour": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.hour",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/hour",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/hour",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.zoneddatetime.prototype.hour",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -960,7 +980,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -973,11 +994,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -988,12 +1011,15 @@
           },
           "hoursInDay": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.hoursInDay",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/hoursinday",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/hoursInDay",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.zoneddatetime.prototype.hoursinday",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -1007,7 +1033,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -1020,11 +1047,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -1035,12 +1064,15 @@
           },
           "inLeapYear": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.inLeapYear",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/inleapyear",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/inLeapYear",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.zoneddatetime.prototype.inleapyear",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -1054,7 +1086,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -1067,11 +1100,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -1082,12 +1117,15 @@
           },
           "microsecond": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.microsecond",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/microsecond",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/microsecond",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.zoneddatetime.prototype.microsecond",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -1101,7 +1139,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -1114,11 +1153,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -1129,12 +1170,15 @@
           },
           "millisecond": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.millisecond",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/millisecond",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/millisecond",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.zoneddatetime.prototype.millisecond",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -1148,7 +1192,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -1161,11 +1206,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -1176,12 +1223,15 @@
           },
           "minute": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.minute",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/minute",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/minute",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.zoneddatetime.prototype.minute",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -1195,7 +1245,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -1208,11 +1259,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -1223,12 +1276,15 @@
           },
           "month": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.month",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/month",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/month",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.zoneddatetime.prototype.month",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -1242,7 +1298,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -1255,11 +1312,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -1270,12 +1329,15 @@
           },
           "monthCode": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.monthCode",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/monthcode",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/monthCode",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.zoneddatetime.prototype.monthcode",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -1289,7 +1351,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -1302,11 +1365,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -1317,12 +1382,15 @@
           },
           "monthsInYear": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.monthsInYear",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/monthsinyear",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/monthsInYear",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.zoneddatetime.prototype.monthsinyear",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -1336,7 +1404,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -1349,11 +1418,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -1364,12 +1435,15 @@
           },
           "nanosecond": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.nanosecond",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/nanosecond",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/nanosecond",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.zoneddatetime.prototype.nanosecond",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -1383,7 +1457,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -1396,11 +1471,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -1411,12 +1488,15 @@
           },
           "offset": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.offset",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/offset",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/offset",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.zoneddatetime.prototype.offset",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -1430,7 +1510,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -1443,11 +1524,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -1458,12 +1541,15 @@
           },
           "offsetNanoseconds": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.offsetNanoseconds",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/offsetnanoseconds",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/offsetNanoseconds",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.zoneddatetime.prototype.offsetnanoseconds",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -1477,7 +1563,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -1490,11 +1577,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -1505,12 +1594,15 @@
           },
           "round": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.round()",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/round",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/round",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.zoneddatetime.prototype.round",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -1524,7 +1616,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -1537,11 +1630,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -1552,12 +1647,15 @@
           },
           "second": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.second",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/second",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/second",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.zoneddatetime.prototype.second",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -1571,7 +1669,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -1584,11 +1683,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -1599,12 +1700,15 @@
           },
           "since": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.since()",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/since",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/since",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.zoneddatetime.prototype.since",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -1618,7 +1722,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -1631,11 +1736,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -1646,11 +1753,15 @@
           },
           "startOfDay": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.startOfDay",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/startofday",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/startOfDay",
+              "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.zoneddatetime.prototype.startofday",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -1664,7 +1775,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -1677,11 +1789,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -1692,12 +1806,15 @@
           },
           "subtract": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.subtract()",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/subtract",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/subtract",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.zoneddatetime.prototype.subtract",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -1711,7 +1828,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -1724,11 +1842,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -1737,14 +1857,17 @@
               }
             }
           },
-          "timeZone": {
+          "timeZoneId": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.timeZone",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/timezone",
-              "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.zoneddatetime.prototype.timezone",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/timeZoneId",
+              "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.zoneddatetime.prototype.timezoneid",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -1758,7 +1881,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -1771,11 +1895,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -1786,12 +1912,15 @@
           },
           "toInstant": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.toInstant()",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/toinstant",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/toInstant",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.zoneddatetime.prototype.toinstant",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -1805,7 +1934,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -1818,11 +1948,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -1833,12 +1965,15 @@
           },
           "toJSON": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.toJSON()",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/tojson",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/toJSON",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.zoneddatetime.prototype.tojson",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -1852,7 +1987,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -1865,11 +2001,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -1880,12 +2018,15 @@
           },
           "toLocaleString": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.toLocaleString()",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/tolocalestring",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/toLocaleString",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.zoneddatetime.prototype.tolocalestring",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -1899,7 +2040,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -1912,11 +2054,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -1927,12 +2071,15 @@
           },
           "toPlainDate": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.toPlainDate()",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/toplaindate",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/toPlainDate",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.zoneddatetime.prototype.toplaindate",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -1946,7 +2093,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -1959,11 +2107,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -1974,12 +2124,15 @@
           },
           "toPlainDateTime": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.toPlainDateTime()",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/toplaindatetime",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/toPlainDateTime",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.zoneddatetime.prototype.toplaindatetime",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -1993,7 +2146,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -2006,58 +2160,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
-              },
-              "status": {
-                "experimental": true,
-                "standard_track": true,
-                "deprecated": false
-              }
-            }
-          },
-          "toPlainMonthDay": {
-            "__compat": {
-              "description": "Temporal.ZonedDateTime.toPlainMonthDay()",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/toplainmonthday",
-              "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.zoneddatetime.prototype.toplainmonthday",
-              "support": {
-                "chrome": {
-                  "version_added": false
-                },
-                "chrome_android": "mirror",
-                "deno": {
-                  "version_added": "1.40",
-                  "flags": [
-                    {
-                      "type": "runtime_flag",
-                      "name": "--unstable-temporal"
-                    }
-                  ]
-                },
-                "edge": "mirror",
-                "firefox": {
-                  "version_added": false
-                },
-                "firefox_android": "mirror",
-                "ie": {
-                  "version_added": false
-                },
-                "nodejs": {
-                  "version_added": false
-                },
-                "oculus": "mirror",
-                "opera": "mirror",
-                "opera_android": "mirror",
-                "safari": {
-                  "version_added": false
-                },
-                "safari_ios": "mirror",
-                "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -2068,12 +2177,15 @@
           },
           "toPlainTime": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.toPlainTime()",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/toplaintime",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/toPlainTime",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.zoneddatetime.prototype.toplaintime",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -2087,7 +2199,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -2100,58 +2213,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
-              },
-              "status": {
-                "experimental": true,
-                "standard_track": true,
-                "deprecated": false
-              }
-            }
-          },
-          "toPlainYearMonth": {
-            "__compat": {
-              "description": "Temporal.ZonedDateTime.toPlainYearMonth()",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/toplainyearmonth",
-              "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.zoneddatetime.prototype.toplainyearmonth",
-              "support": {
-                "chrome": {
-                  "version_added": false
-                },
-                "chrome_android": "mirror",
-                "deno": {
-                  "version_added": "1.40",
-                  "flags": [
-                    {
-                      "type": "runtime_flag",
-                      "name": "--unstable-temporal"
-                    }
-                  ]
-                },
-                "edge": "mirror",
-                "firefox": {
-                  "version_added": false
-                },
-                "firefox_android": "mirror",
-                "ie": {
-                  "version_added": false
-                },
-                "nodejs": {
-                  "version_added": false
-                },
-                "oculus": "mirror",
-                "opera": "mirror",
-                "opera_android": "mirror",
-                "safari": {
-                  "version_added": false
-                },
-                "safari_ios": "mirror",
-                "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -2162,12 +2230,15 @@
           },
           "toString": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.toString()",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/tostring",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/toString",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.zoneddatetime.prototype.tostring",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -2181,7 +2252,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -2194,11 +2266,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -2209,12 +2283,15 @@
           },
           "until": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.until()",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/until",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/until",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.zoneddatetime.prototype.until",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -2228,7 +2305,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -2241,11 +2319,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -2256,12 +2336,15 @@
           },
           "valueOf": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.valueOf()",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/valueof",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/valueOf",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.zoneddatetime.prototype.valueof",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -2275,7 +2358,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -2288,11 +2372,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -2303,12 +2389,15 @@
           },
           "weekOfYear": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.weekOfYear",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/weekofyear",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/weekOfYear",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.zoneddatetime.prototype.weekofyear",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -2322,7 +2411,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -2335,11 +2425,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -2350,12 +2442,15 @@
           },
           "with": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.with()",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/with",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/with",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.zoneddatetime.prototype.with",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -2369,7 +2464,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -2382,11 +2478,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -2397,12 +2495,15 @@
           },
           "withCalendar": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.withCalendar()",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/withcalendar",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/withCalendar",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.zoneddatetime.prototype.withcalendar",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -2416,7 +2517,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -2429,58 +2531,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
-              },
-              "status": {
-                "experimental": true,
-                "standard_track": true,
-                "deprecated": false
-              }
-            }
-          },
-          "withPlainDate": {
-            "__compat": {
-              "description": "Temporal.ZonedDateTime.withPlainDate()",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/withplaindate",
-              "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.zoneddatetime.prototype.withplaindate",
-              "support": {
-                "chrome": {
-                  "version_added": false
-                },
-                "chrome_android": "mirror",
-                "deno": {
-                  "version_added": "1.40",
-                  "flags": [
-                    {
-                      "type": "runtime_flag",
-                      "name": "--unstable-temporal"
-                    }
-                  ]
-                },
-                "edge": "mirror",
-                "firefox": {
-                  "version_added": false
-                },
-                "firefox_android": "mirror",
-                "ie": {
-                  "version_added": false
-                },
-                "nodejs": {
-                  "version_added": false
-                },
-                "oculus": "mirror",
-                "opera": "mirror",
-                "opera_android": "mirror",
-                "safari": {
-                  "version_added": false
-                },
-                "safari_ios": "mirror",
-                "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -2491,12 +2548,15 @@
           },
           "withPlainTime": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.withPlainTime()",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/withplaintime",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/withPlainTime",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.zoneddatetime.prototype.withplaintime",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -2510,7 +2570,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -2523,11 +2584,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -2538,12 +2601,15 @@
           },
           "withTimeZone": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.withTimeZone()",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/withtimezone",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/withTimeZone",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-temporal.zoneddatetime.prototype.withtimezone",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -2557,7 +2623,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -2570,11 +2637,13 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,
@@ -2585,12 +2654,15 @@
           },
           "year": {
             "__compat": {
-              "description": "Temporal.ZonedDateTime.year",
-              "mdn_url": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/zoneddatetime/year",
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/year",
               "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.zoneddatetime.prototype.year",
+              "tags": [
+                "web-features:temporal"
+              ],
               "support": {
                 "chrome": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
                 },
                 "chrome_android": "mirror",
                 "deno": {
@@ -2604,7 +2676,8 @@
                 },
                 "edge": "mirror",
                 "firefox": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
                 },
                 "firefox_android": "mirror",
                 "ie": {
@@ -2617,11 +2690,66 @@
                 "opera": "mirror",
                 "opera_android": "mirror",
                 "safari": {
-                  "version_added": false
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
                 },
                 "safari_ios": "mirror",
                 "samsunginternet_android": "mirror",
-                "webview_android": "mirror"
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
+              },
+              "status": {
+                "experimental": true,
+                "standard_track": true,
+                "deprecated": false
+              }
+            }
+          },
+          "yearOfWeek": {
+            "__compat": {
+              "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/yearOfWeek",
+              "spec_url": "https://tc39.es/proposal-temporal/#sec-get-temporal.zoneddatetime.prototype.yearofweek",
+              "tags": [
+                "web-features:temporal"
+              ],
+              "support": {
+                "chrome": {
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/42201538"
+                },
+                "chrome_android": "mirror",
+                "deno": {
+                  "version_added": "1.40",
+                  "flags": [
+                    {
+                      "type": "runtime_flag",
+                      "name": "--unstable-temporal"
+                    }
+                  ]
+                },
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1519167"
+                },
+                "firefox_android": "mirror",
+                "ie": {
+                  "version_added": false
+                },
+                "nodejs": {
+                  "version_added": false
+                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
+                "safari": {
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/223166"
+                },
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
               },
               "status": {
                 "experimental": true,

@@ -5,6 +5,10 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Atomics",
           "spec_url": "https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics-object",
+          "tags": [
+            "web-features:snapshot:ecmascript-2017",
+            "web-features:shared-memory"
+          ],
           "support": {
             "chrome": {
               "version_added": "68"
@@ -31,11 +35,12 @@
             "opera_android": "mirror",
             "safari": {
               "version_added": "15.2",
-              "notes": "Before Safari 16.4, <code>Atomics</code> is gated behind COOP/COEP. For more detail, read <a href='https://web.dev/coop-coep/'>Making your website \"cross-origin isolated\" using COOP and COEP</a>."
+              "notes": "Before Safari 16.4, `Atomics` is gated behind COOP/COEP. For more detail, read [Making your website \"cross-origin isolated\" using COOP and COEP](https://web.dev/coop-coep/)."
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -45,7 +50,11 @@
         },
         "Atomic_operations_on_non_shared_buffers": {
           "__compat": {
-            "description": "Atomic operations on non-shared <code>ArrayBuffer</code> objects",
+            "description": "Atomic operations on non-shared `ArrayBuffer` objects",
+            "tags": [
+              "web-features:snapshot:ecmascript-2021",
+              "web-features:shared-memory"
+            ],
             "support": {
               "chrome": {
                 "version_added": false
@@ -73,7 +82,8 @@
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
-              "webview_android": "mirror"
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -86,6 +96,10 @@
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Atomics/add",
             "spec_url": "https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics.add",
+            "tags": [
+              "web-features:snapshot:ecmascript-2017",
+              "web-features:shared-memory"
+            ],
             "support": {
               "chrome": {
                 "version_added": "68"
@@ -115,7 +129,8 @@
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
-              "webview_android": "mirror"
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -128,6 +143,10 @@
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Atomics/and",
             "spec_url": "https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics.and",
+            "tags": [
+              "web-features:snapshot:ecmascript-2017",
+              "web-features:shared-memory"
+            ],
             "support": {
               "chrome": {
                 "version_added": "68"
@@ -157,7 +176,8 @@
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
-              "webview_android": "mirror"
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -170,6 +190,10 @@
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Atomics/compareExchange",
             "spec_url": "https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics.compareexchange",
+            "tags": [
+              "web-features:snapshot:ecmascript-2017",
+              "web-features:shared-memory"
+            ],
             "support": {
               "chrome": {
                 "version_added": "68"
@@ -199,7 +223,8 @@
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
-              "webview_android": "mirror"
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -212,6 +237,10 @@
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Atomics/exchange",
             "spec_url": "https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics.exchange",
+            "tags": [
+              "web-features:snapshot:ecmascript-2017",
+              "web-features:shared-memory"
+            ],
             "support": {
               "chrome": {
                 "version_added": "68"
@@ -241,7 +270,8 @@
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
-              "webview_android": "mirror"
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -254,6 +284,10 @@
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Atomics/isLockFree",
             "spec_url": "https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics.islockfree",
+            "tags": [
+              "web-features:snapshot:ecmascript-2017",
+              "web-features:shared-memory"
+            ],
             "support": {
               "chrome": {
                 "version_added": "68"
@@ -283,7 +317,8 @@
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
-              "webview_android": "mirror"
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -296,6 +331,10 @@
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Atomics/load",
             "spec_url": "https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics.load",
+            "tags": [
+              "web-features:snapshot:ecmascript-2017",
+              "web-features:shared-memory"
+            ],
             "support": {
               "chrome": {
                 "version_added": "68"
@@ -325,7 +364,8 @@
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
-              "webview_android": "mirror"
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -338,6 +378,10 @@
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Atomics/notify",
             "spec_url": "https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics.notify",
+            "tags": [
+              "web-features:snapshot:ecmascript-2017",
+              "web-features:shared-memory"
+            ],
             "support": {
               "chrome": {
                 "version_added": "68"
@@ -367,7 +411,8 @@
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
-              "webview_android": "mirror"
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -380,6 +425,10 @@
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Atomics/or",
             "spec_url": "https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics.or",
+            "tags": [
+              "web-features:snapshot:ecmascript-2017",
+              "web-features:shared-memory"
+            ],
             "support": {
               "chrome": {
                 "version_added": "68"
@@ -409,10 +458,52 @@
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
-              "webview_android": "mirror"
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "pause": {
+          "__compat": {
+            "spec_url": "https://tc39.es/proposal-atomics-microwait/#Atomics.pause",
+            "support": {
+              "chrome": {
+                "version_added": "133"
+              },
+              "chrome_android": "mirror",
+              "deno": {
+                "version_added": false
+              },
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "preview",
+                "impl_url": "https://bugzil.la/1937805"
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": false
+              },
+              "nodejs": {
+                "version_added": false
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "preview"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": true,
               "standard_track": true,
               "deprecated": false
             }
@@ -422,6 +513,10 @@
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Atomics/store",
             "spec_url": "https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics.store",
+            "tags": [
+              "web-features:snapshot:ecmascript-2017",
+              "web-features:shared-memory"
+            ],
             "support": {
               "chrome": {
                 "version_added": "68"
@@ -451,7 +546,8 @@
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
-              "webview_android": "mirror"
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -464,6 +560,10 @@
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Atomics/sub",
             "spec_url": "https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics.sub",
+            "tags": [
+              "web-features:snapshot:ecmascript-2017",
+              "web-features:shared-memory"
+            ],
             "support": {
               "chrome": {
                 "version_added": "68"
@@ -493,7 +593,8 @@
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
-              "webview_android": "mirror"
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -506,6 +607,10 @@
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Atomics/wait",
             "spec_url": "https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics.wait",
+            "tags": [
+              "web-features:snapshot:ecmascript-2017",
+              "web-features:shared-memory"
+            ],
             "support": {
               "chrome": {
                 "version_added": "68"
@@ -535,7 +640,8 @@
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
-              "webview_android": "mirror"
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -548,6 +654,10 @@
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Atomics/waitAsync",
             "spec_url": "https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics.waitasync",
+            "tags": [
+              "web-features:snapshot:ecmascript-2024",
+              "web-features:atomics-wait-async"
+            ],
             "support": {
               "chrome": {
                 "version_added": "87"
@@ -579,7 +689,8 @@
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
-              "webview_android": "mirror"
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -592,6 +703,10 @@
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Atomics/xor",
             "spec_url": "https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics.xor",
+            "tags": [
+              "web-features:snapshot:ecmascript-2017",
+              "web-features:shared-memory"
+            ],
             "support": {
               "chrome": {
                 "version_added": "68"
@@ -621,7 +736,8 @@
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
-              "webview_android": "mirror"
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
